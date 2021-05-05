@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #00004d;
+  font-size: 5.65rem;
+}
+
+h2 {
+  font-family: 'Krona One', sans-serif;
+  color: #114e60;
+  font-size: 2.0rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
+
+h3 {
+  color: #00994d;
+  font-family: 'Merriweather', serif;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  text-decoration: none;
+}
+
+.top {
+  background-color: #b3ecff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle {
+  position: relative;
+  margin: 100px 0;
+}
+
+.bottom {
+  position: relative;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.cloud2 {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.cloud1 {
+  position: absolute;
+  left: 250px;
+  top: 50px;
+}
+.cloud3 {
+  position: absolute;
+  left: 20px;
+  bottom: 500px;
+}
+.cloud4 {
+  position: absolute;
+  right: 20px;
+  bottom: 500px;
+}
+.myimage {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.Chess {
+  border-radius: 150px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.mou{
+  width:100%;
+  height:600px;
+}
+.web {
+  border-radius: 150px;
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #aa34d9;
+  background-image: -webkit-linear-gradient(top, #aa34d9, #5db82c);
+  background-image: -moz-linear-gradient(top, #aa34d9, #5db82c);
+  background-image: -ms-linear-gradient(top, #aa34d9, #5db82c);
+  background-image: -o-linear-gradient(top, #aa34d9, #5db82c);
+  background-image: linear-gradient(to bottom, #aa34d9, #5db82c);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #30ab5f 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a7bf1f;
+  background-image: -webkit-linear-gradient(top, #a7bf1f, #1fb312);
+  background-image: -moz-linear-gradient(top, #a7bf1f, #1fb312);
+  background-image: -ms-linear-gradient(top, #a7bf1f, #1fb312);
+  background-image: -o-linear-gradient(top, #a7bf1f, #1fb312);
+  background-image: linear-gradient(to bottom, #a7bf1f, #1fb312);
+  text-decoration: none;
+}
